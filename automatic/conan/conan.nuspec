@@ -14,7 +14,7 @@ Decentralized, open-source (MIT), C/C++ package manager.
     </description>
     <projectUrl>https://conan.io/</projectUrl>
     <tags>conan C++ package manager</tags>
-    <iconUrl>https://github.com/conan-io/website/blob/master/img/logo-conan.jpg</iconUrl>
+    <iconUrl>https://conan.io/img/jfrog_conan_logo.png</iconUrl>
     <copyright>Copyright 2016-2019, JFrog.</copyright>
     <licenseUrl>https://github.com/conan-io/conan/blob/develop/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
