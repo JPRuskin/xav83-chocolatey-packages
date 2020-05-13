@@ -1,7 +1,7 @@
 # Chocolatey Packages
 
 [![](https://ci.appveyor.com/api/projects/status/github/Xav83/chocolatey-packages?svg=true)](https://ci.appveyor.com/project/Xav83/chocolatey-packages)
-[Update status](https://gist.github.com/Xav83/c4eb33a8aa993629f3d047747322e809)
+[![Update Status](https://img.shields.io/badge/Update-Status-blue.svg)](https://gist.github.com/Xav83/c4eb33a8aa993629f3d047747322e809)
 
 ## Chocolatey Packages Template
 
