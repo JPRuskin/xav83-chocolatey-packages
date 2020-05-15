@@ -14,6 +14,7 @@ Ccache (or “ccache”) is a compiler cache. It speeds up recompilation by cach
     </description>
     <projectUrl>https://ccache.dev/</projectUrl>
     <tags>ccache C++ cache compiler</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
     <copyright>Copyright (C) 2002-2007 Andrew Tridgell
   Copyright (C) 2009-2020 Joel Rosdahl</copyright>
     <licenseUrl>https://ccache.dev/license.html</licenseUrl>
@@ -22,7 +23,7 @@ Ccache (or “ccache”) is a compiler cache. It speeds up recompilation by cach
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>[Package Release Notes](https://ccache.dev/releasenotes.html)</releaseNotes>
-    <docsUrl>https://ccache.dev/manual/latest.html/</docsUrl>
+    <docsUrl>https://ccache.dev/manual/latest.html</docsUrl>
     <bugTrackerUrl>https://github.com/ccache/ccache/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/ccache/ccache</projectSourceUrl>
     <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/ccache</packageSourceUrl>
