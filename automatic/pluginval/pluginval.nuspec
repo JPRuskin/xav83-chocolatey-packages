@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>pluginval</id>
+    <title>pluginval - Cross platform plugin testing and validation tool</title>
+    <version>0.2.6</version>
+    <authors>Tracktion</authors>
+    <owners>Xav83</owners>
+    <summary>Cross platform plugin testing and validation tool.</summary>
+    <description>
+pluginval is a cross-platform plugin validator and tester application. It is designed to be used by both plugin and host developers to ensure stability and compatibility between plugins and hosts.
+If you are a plugin user looking to report a problem with a plugin to the developers, you can use pluginval to create a detailed log which can drastically improve the time to fix issues. Please follow the instructions here to get started: Testing plugins with pluginval
+    </description>
+    <projectUrl>https://www.tracktion.com/develop/pluginval</projectUrl>
+    <tags>plugin vst au vst3 tests validation</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <copyright>GNU General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/WeAreROLI/pluginval/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Release Notes](https://github.com/Tracktion/pluginval/blob/develop/CHANGELIST.md)</releaseNotes>
+    <docsUrl>https://github.com/Tracktion/pluginval/tree/develop/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/Tracktion/pluginval/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Tracktion/pluginval</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/pluginval</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
