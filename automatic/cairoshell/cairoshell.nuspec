@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cairoshell</id>
+    <title>cairoshell – Customizable, intuitive desktop environment for Windows</title>
+    <version>0.3.7015</version>
+    <authors>Cairo Development Team</authors>
+    <owners>Xav83</owners>
+    <summary>Cairo is a customizable, intuitive desktop environment for Windows.</summary>
+    <description>
+Cairo is a desktop environment for Windows. Our goal is to develop a desktop experience that increases productivity and advances current technology standards. With a focus on stability, performance, and productivity, Cairo aims to deliver an interface that exceeds expectations and delivers superior ease of use.
+    </description>
+    <projectUrl>https://cairoshell.com/</projectUrl>
+    <tags>desktop-environment windows-desktop shell task-manager launcher wpf</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <copyright>Apache License 2.0</copyright>
+    <licenseUrl>https://github.com/cairoshell/cairoshell/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Release Notes](https://github.com/cairoshell/cairoshell/releases)</releaseNotes>
+    <docsUrl>https://github.com/cairoshell/cairoshell/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/cairoshell/cairoshell/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/cairoshell/cairoshell</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/cairoshell</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
