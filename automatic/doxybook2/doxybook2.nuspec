@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>doxybook2</id>
+    <title>doxybook2 – Doxygen XML to Markdown (or JSON)</title>
+    <version>1.1.3</version>
+    <authors>Matus Novak</authors>
+    <owners>Xav83</owners>
+    <summary>Doxygen XML to Markdown (or JSON).</summary>
+    <description>
+Doxygen XML to Markdown (or JSON) converter. Generate beautiful C++ documentation by converting Doxygen XML output into markdown pages via MkDocs, Hugo, VuePress, GitBook, Docsify, or your custom generator. Also comes with an optional templating mechanism and extensive configuration file.
+    </description>
+    <projectUrl>https://matusnovak.github.io/doxybook2</projectUrl>
+    <tags>mkdocs doxygen-xml gitbook hugo vuepress hugo-book-theme doxygen documentation documentation-generator markdown</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <copyright>Copyright (c) 2019-2020 Matus Novak</copyright>
+    <licenseUrl>https://github.com/matusnovak/doxybook2/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Release Notes](https://github.com/matusnovak/doxybook2/releases)</releaseNotes>
+    <docsUrl>https://github.com/matusnovak/doxybook2/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/matusnovak/doxybook2/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/matusnovak/doxybook2</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/doxybook2</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
