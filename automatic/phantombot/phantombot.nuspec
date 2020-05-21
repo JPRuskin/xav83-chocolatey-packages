@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>phantombot</id>
+    <title>PhantomBot</title>
+    <version>3.1.2</version>
+    <authors>BrandenB phantomindex Zackery</authors>
+    <owners>Xav83</owners>
+    <summary>PhantomBot is an actively developed open source interactive Twitch bot with a vibrant community that provides entertainment and moderation for your channel, allowing you to focus on what matters the most to you - your game and your viewers.</summary>
+    <description>
+PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many modern features out of the box such as a built-in webpanel, enhanced moderation, games, a point system, raffles, custom commands, a music player, and more! PhantomBot can also be integrated with many services such as Discord, Twitter, TipeeeStream, StreamLabs and StreamElements!
+    </description>
+    <projectUrl>https://phantom.bot/</projectUrl>
+    <tags>phantombot twitter moderation game java streamlabs youtube twitch twitchtv sfx discord-bot twitch-bot</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <copyright>PhantomBot © 2016 - 2020</copyright>
+    <licenseUrl>https://github.com/PhantomBot/PhantomBot/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://blog.phantom.bot/tag/release-notes/)</releaseNotes>
+    <docsUrl>https://community.phantom.bot/c/documentation/19</docsUrl>
+    <bugTrackerUrl>https://community.phantom.bot/c/support/8</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/PhantomBot/PhantomBot</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/phantombot</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
