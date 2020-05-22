@@ -4,8 +4,8 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>cairoshell</id>
-    <title>cairoshell – Customizable, intuitive desktop environment for Windows</title>
-    <version>0.3.7015</version>
+    <title>Cairoshell</title>
+    <version>0.3.7023</version>
     <authors>Cairo Development Team</authors>
     <owners>Xav83</owners>
     <summary>Cairo is a customizable, intuitive desktop environment for Windows.</summary>
