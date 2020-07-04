@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>dosbox-x</id>
+    <title>dosbox-x</title>
+    <version>0.83.3</version>
+    <authors>Jonathan Campbell</authors>
+    <owners>Xav83</owners>
+    <summary>DOSBox-X fork of the DOSBox project.</summary>
+    <description>
+DOSBox-X is a cross-platform DOS emulator based on the DOSBox project (www.dosbox.com)
+
+Like DOSBox, it emulates a PC necessary for running many MS-DOS games and applications that simply cannot be run on modern PCs and operating systems. However, while the main focus of DOSBox is for running DOS games, DOSBox-X goes much further than this. Started as a fork of the DOSBox project, it retains compatibility with the wide base of DOS games and DOS gaming DOSBox was designed for. But it is also a platform for running DOS applications, including emulating the environments to run Windows 3.x, 9x and ME and software written for those versions of Windows.
+    </description>
+    <projectUrl>http://dosbox-x.com/</projectUrl>
+    <tags>dosbox dosbox-x dos emulator</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <copyright> GNU General Public License, version 2</copyright>
+    <licenseUrl>https://github.com/joncampbell123/dosbox-x/blob/dosbox-x-v0.83.3/COPYING</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Changelog](https://github.com/joncampbell123/dosbox-x/blob/dosbox-x-v0.83.3/CHANGELOG)</releaseNotes>
+    <docsUrl>https://github.com/joncampbell123/dosbox-x/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/joncampbell123/dosbox-x/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/joncampbell123/dosbox-x</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/dosbox-x</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
