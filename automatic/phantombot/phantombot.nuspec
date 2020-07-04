@@ -22,8 +22,8 @@ PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many modern feat
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>[Release Notes](https://blog.phantom.bot/tag/release-notes/)</releaseNotes>
-    <docsUrl>https://community.phantom.bot/c/documentation/19</docsUrl>
-    <bugTrackerUrl>https://community.phantom.bot/c/support/8</bugTrackerUrl>
+    <docsUrl>https://phantombot.github.io/PhantomBot/</docsUrl>
+    <!--<bugTrackerUrl>https://community.phantom.bot/c/support/8</bugTrackerUrl>-->
     <projectSourceUrl>https://github.com/PhantomBot/PhantomBot</projectSourceUrl>
     <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/phantombot</packageSourceUrl>
   </metadata>
