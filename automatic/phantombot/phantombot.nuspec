@@ -14,7 +14,7 @@ PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many modern feat
     </description>
     <projectUrl>https://phantom.bot/</projectUrl>
     <tags>phantombot twitter moderation game java streamlabs youtube twitch twitchtv sfx discord-bot twitch-bot</tags>
-    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <iconUrl>https://phantombot.github.io/PhantomBot/common/images/logo.png</iconUrl>
     <copyright>PhantomBot © 2016 - 2020</copyright>
     <licenseUrl>https://github.com/PhantomBot/PhantomBot/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
