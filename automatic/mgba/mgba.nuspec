@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>mgba</id>
+    <title>mGBA</title>
+    <version>0.8.2</version>
+    <authors>Vicki Pfau</authors>
+    <owners>Xav83</owners>
+    <summary>Open-source Game Boy Advance emulator.</summary>
+    <description>
+mGBA is an emulator for running Game Boy Advance games. It aims to be faster and more accurate than many existing Game Boy Advance emulators, as well as adding features that other emulators lack. It also supports Game Boy and Game Boy Color games.
+    </description>
+    <projectUrl>https://mgba.io/</projectUrl>
+    <tags>mgba gameboy-emulator gameboy-advance-emulator gba gameboy-advance gameboy-color-emulator gameboy game-boy game-boy-emulator game-boy-advance game-boy-color</tags>
+    <iconUrl>https://github.com/mgba-emu/mgba/blob/master/res/mgba-128.png</iconUrl>
+    <copyright>copyright © 2013–2020 Vicki Pfau.</copyright>
+    <licenseUrl>https://github.com/mgba-emu/mgba/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Changelog](https://github.com/mgba-emu/mgba/blob/master/CHANGES)</releaseNotes>
+    <docsUrl>https://mgba.io/faq.html</docsUrl>
+    <bugTrackerUrl>https://github.com/mgba-emu/mgba/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/mgba-emu/mgba</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/mgba</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
