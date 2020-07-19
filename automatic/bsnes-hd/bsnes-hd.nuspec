@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>bsnes-hd</id>
+    <title>Bsnes-hd</title>
+    <version>10.3</version>
+    <authors>DerKoun</authors>
+    <owners>Xav83</owners>
+    <summary>bsnes fork that adds HD video features</summary>
+    <description>
+bsnes-hd (called "HD Mode 7 mod, for bsnes" in early betas) is a fork of bsnes (great SNES emulator by byuu) that adds HD video features, such as:
+    </description>
+    <projectUrl>https://www.romstation.fr/emulators/bsnes-hd-r39</projectUrl>
+    <tags>bsnes hd snes emulator supernintendo mode7 highresolution widescreena</tags>
+    <!--<iconUrl>http://cdn.rawgit.com/chocolatey-coreteampackages/master/icons/chocolatey-common.extension.png</iconUrl>-->
+    <copyright> GNU General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/DerKoun/bsnes-hd/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/DerKoun/bsnes-hd/releases)</releaseNotes>
+    <docsUrl>https://github.com/DerKoun/bsnes-hd/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/DerKoun/bsnes-hd/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/DerKoun/bsnes-hd</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/bsnes-hd</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
