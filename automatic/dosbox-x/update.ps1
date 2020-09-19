@@ -5,8 +5,8 @@ $releases = 'https://github.com/joncampbell123/dosbox-x/releases'
 function global:au_SearchReplace {
     @{
         'tools\chocolateyInstall.ps1' = @{
-            "(^[$]url64\s*=\s*)('.*')"      = "`$1'$($Latest.URL64)'"
-            "(^[$]checksum64\s*=\s*)('.*')" = "`$1'$($Latest.Checksum64)'"
+            "(^[$]url32\s*=\s*)('.*')"      = "`$1'$($Latest.URL32)'"
+            "(^[$]checksum32\s*=\s*)('.*')" = "`$1'$($Latest.Checksum32)'"
         }
      }
 }
@@ -14,15 +14,15 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "dosbox-x-windows-.+-.+-windows.zip$"
+    $re  = "dosbox-x-windows-.+-setup.exe$"
 
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
     $version = $url -split '/' -split '-' | select -First 1 -Skip 8 | tr -d v
-    $url64 = 'https://github.com' + $url
+    $url32 = 'https://github.com' + $url
 
-    $Latest = @{ URL64 = $url64; Version = $version }
+    $Latest = @{ URL32 = $url32; Version = $version }
     return $Latest
 }
 
-update -ChecksumFor 64
+update

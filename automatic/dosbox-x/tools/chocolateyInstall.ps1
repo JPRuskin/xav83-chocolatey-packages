@@ -1,16 +1,16 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = $env:ChocolateyPackageName
-$url64       = ''
-$checksum64  = ''
+$url32       = ''
+$checksum32  = ''
 
 $packageArgs = @{
   packageName    = $packageName
-  fileType       = 'ZIP'
-  url64Bit       = $url64
-  checksum64     = $checksum64
-  checksumType64 = 'sha256'
-  unzipLocation  = Split-Path $MyInvocation.MyCommand.Definition
+  fileType       = 'EXE'
+  url32Bit       = $url32
+  checksum32     = $checksum32
+  checksumType32 = 'sha256'
+  silentArgs     = '/VERYSILENT'
   validExitCodes = @(0)
 }
-Install-ChocolateyZipPackage @packageArgs
+Install-ChocolateyPackage @packageArgs
