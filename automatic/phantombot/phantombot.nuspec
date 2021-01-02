@@ -12,7 +12,7 @@
     <description>
 PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many modern features out of the box such as a built-in webpanel, enhanced moderation, games, a point system, raffles, custom commands, a music player, and more! PhantomBot can also be integrated with many services such as Discord, Twitter, TipeeeStream, StreamLabs and StreamElements!
     </description>
-    <projectUrl>https://phantom.bot/</projectUrl>
+    <projectUrl> https://phantombot.github.io/PhantomBot/</projectUrl>
     <tags>phantombot twitter moderation game java streamlabs youtube twitch twitchtv sfx discord-bot twitch-bot</tags>
     <iconUrl>https://phantombot.github.io/PhantomBot/common/images/logo.png</iconUrl>
     <copyright>PhantomBot © 2016 - 2020</copyright>
@@ -22,7 +22,7 @@ PhantomBot is a Twitch chat bot powered by Java. PhantomBot has many modern feat
       <dependency id="" version="" />
     </dependencies>-->
     <releaseNotes>[Release Notes](https://blog.phantom.bot/tag/release-notes/)</releaseNotes>
-    <docsUrl>https://phantombot.github.io/PhantomBot/</docsUrl>
+    <docsUrl>https://phantombot.github.io/PhantomBot/guides/#guide=content/guides</docsUrl>
     <!--<bugTrackerUrl>https://community.phantom.bot/c/support/8</bugTrackerUrl>-->
     <projectSourceUrl>https://github.com/PhantomBot/PhantomBot</projectSourceUrl>
     <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/phantombot</packageSourceUrl>
