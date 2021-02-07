@@ -1,5 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'
 
+$toolsPath = Split-Path -parent $MyInvocation.MyCommand.Definition
+
 $packageName = $env:ChocolateyPackageName
 $url64       = ''
 $checksum64  = ''
@@ -14,3 +16,9 @@ $packageArgs = @{
   validExitCodes = @(0)
 }
 Install-ChocolateyZipPackage @packageArgs
+
+# Excludes pluginval from getting shims (https://docs.chocolatey.org/en-us/create/create-packages#how-do-i-exclude-executables-from-getting-shims)
+Get-ChildItem $toolsPath\*.exe | ForEach-Object { New-Item "$_.ignore" -type file -force | Out-Null }
+
+# Add pluginval to PATH
+Install-ChocolateyPath -PathToInstall $toolsPath -PathType User
