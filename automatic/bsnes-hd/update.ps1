@@ -18,7 +18,7 @@ function global:au_GetLatest {
 
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-    $version = (($url -split '/' | select -Last 1 -Skip 1) -replace 'beta_','') -replace '_','.'
+    $version = (($url -split '/' | select -Last 1 -Skip 1) -replace 'beta_','') -replace '_','.' -replace 'h.',''
     $url64 = 'https://github.com' + $url
 
     $Latest = @{ URL64 = $url64; Version = $version }
