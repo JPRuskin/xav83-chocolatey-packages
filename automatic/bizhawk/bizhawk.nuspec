@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>bizhawk</id>
     <title>BizHawk</title>
-    <version>2.4.2</version>
+    <version>2.6.1</version>
     <authors>TASVideos</authors>
     <owners>Xav83</owners>
     <summary>BizHawk is a multi-system emulator written in C#.</summary>
