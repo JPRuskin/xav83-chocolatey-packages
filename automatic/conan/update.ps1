@@ -16,7 +16,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "conan-win-(32|64).+.exe"
+    $re  = "conan-win-(32|64).exe"
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
     $version = $url[0] -split '/' | select -Last 1 -Skip 1
