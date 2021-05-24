@@ -1,3 +1,4 @@
+param([switch]$Force)
 import-module au
 
 $releases = 'https://github.com/mgba-emu/mgba/releases'
@@ -28,4 +29,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update
+update -Force:$Force
