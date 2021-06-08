@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>conan</id>
     <title>Conan - The open-source C/C++ package manager</title>
-    <version>1.25.0.20200510</version>
+    <version>1.37.1</version>
     <authors>Conan.io</authors>
     <owners>Xav83</owners>
     <summary>Decentralized, open-source (MIT), C/C++ package manager.</summary>
