@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>tvrename</id>
+    <title>TV Rename</title>
+    <version>3.3.1</version>
+    <authors>TV-Rename</authors>
+    <owners>Xav83</owners>
+    <summary>Organise your TV videos with ease</summary>
+    <description>
+Organise your TV files with ease
+Say you've downloaded a few TV episodes and they have names like:
+
+Greys.Anatomy.S03E04.blah.xvid.avi
+
+and you want them named like:
+
+Grey's Anatomy - S03E04 - What I Am.avi
+
+...then TV Rename is the program for you!
+    </description>
+    <projectUrl>https://www.tvrename.com/</projectUrl>
+    <tags>monitor rename tv episodes tvdb rename-files tv-apps tv-series tv-shows tv-listings tv-show renamer tvdb-api tvshows tv-guide renaming-files tv-show-rename tv-videos tv-rename</tags>
+    <iconUrl>https://rawcdn.githack.com/TV-Rename/tvrename/89ea2819b7b42ae47034ae278c6ec419157d31e1/TVRename/Resources/tv3white.png</iconUrl>
+    <copyright>Copyright 2020 TV Rename.</copyright>
+    <licenseUrl>https://github.com/TV-Rename/tvrename/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Features](https://www.tvrename.com/manual/features/)</releaseNotes>
+    <docsUrl>https://www.tvrename.com/manual/user/</docsUrl>
+    <bugTrackerUrl>https://www.tvrename.com/manual/support/</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/TV-Rename/tvrename</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/tvrename</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
