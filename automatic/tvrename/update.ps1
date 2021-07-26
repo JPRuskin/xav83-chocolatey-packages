@@ -1,6 +1,5 @@
+param([switch]$Force)
 import-module au
-
-$releases = 'https://github.com/TV-Rename/tvrename/releases?after=4.0.9-alpha9'
 
 function global:au_SearchReplace {
     @{
@@ -12,6 +11,7 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
+    $releases = 'https://github.com/TV-Rename/tvrename/releases?after=4.0.9-alpha9'
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re  = "TVRename-[0-9]+\.[0-9]+\.[0-9]+.exe"
@@ -24,4 +24,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update
+update -ChecksumFor 32 -Force:$Force
