@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'conan'
-$url32       = 'https://github.com/conan-io/conan/releases/download/1.37.1/conan-win-32.exe'
-$url64       = 'https://github.com/conan-io/conan/releases/download/1.37.1/conan-win-64.exe'
-$checksum32  = '0b2b850ffdb7ab817e847fd103d33af182cb17f6c04b8ee68aeb7f9c04256948'
-$checksum64  = '3d81067b0be01ebc9a3335b1d49488879fb8b5372b7a72d896e4248db9aa1c0f'
+$url32       = 'https://github.com/conan-io/conan/releases/download/1.39.0/conan-win-32.exe'
+$url64       = 'https://github.com/conan-io/conan/releases/download/1.39.0/conan-win-64.exe'
+$checksum32  = 'ce3dbb37465eb6190b0aa7da66ee307d9a413bea59a3edf49d252efb8fda1ece'
+$checksum64  = '59d0b0b3f4418cd7846160a00ff2e1f2c2e5c6c665836d52954c1c25af213d73'
 
 $packageArgs = @{
   packageName    = $packageName
