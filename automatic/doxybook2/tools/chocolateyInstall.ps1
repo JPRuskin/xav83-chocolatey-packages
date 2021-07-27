@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = $env:ChocolateyPackageName
-$url32       = 'https://github.com/matusnovak/doxybook2/releases/download/v1.3.5/doxybook2-windows-win32-v1.3.5.zip'
-$url64       = 'https://github.com/matusnovak/doxybook2/releases/download/v1.3.5/doxybook2-windows-win64-v1.3.5.zip'
-$checksum32  = 'd340177746d8a0bef7b370948f9434af60d91a2bb50c79c8c9f0e30cba6709a1'
-$checksum64  = 'b6215797b526443d6f98d69e0a263a48470b1211717c30a5dc08464e3bd214ba'
+$url32       = 'https://github.com/matusnovak/doxybook2/releases/download/v1.3.6/doxybook2-windows-win32-v1.3.6.zip'
+$url64       = 'https://github.com/matusnovak/doxybook2/releases/download/v1.3.6/doxybook2-windows-win64-v1.3.6.zip'
+$checksum32  = 'ed8cfd0581201557c1397edbf08fc28c7336041e9f662356275e443e7a8b727d'
+$checksum64  = 'ebbd0b7d717d5740e9a8ea478664a7254f01f35a99d9a86a102ccb616837a6fa'
 
 $packageArgs = @{
   packageName    = $packageName
