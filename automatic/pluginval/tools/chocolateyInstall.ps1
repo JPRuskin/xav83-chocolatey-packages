@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = $env:ChocolateyPackageName
-$url64       = 'https://github.com/Tracktion/pluginval/releases/download/v0.2.9/pluginval_Windows.zip'
-$checksum64  = '60fbd0664dbc621791b0c426b90f489a5c8e8992f89e806e78e91f9275b5253d'
+$url64       = 'https://github.com/Tracktion/pluginval/releases/download/v0.3.0/pluginval_Windows.zip'
+$checksum64  = '70d0154d1169f990c5c0d3759d5a3258d36659ef58ab42e917f345bed304e574'
 
 $packageArgs = @{
   packageName    = $packageName
