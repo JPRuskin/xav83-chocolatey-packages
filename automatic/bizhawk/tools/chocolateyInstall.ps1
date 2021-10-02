@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = $env:ChocolateyPackageName
-$url64       = 'https://github.com/TASVideos/BizHawk/releases/download/2.6.2/BizHawk-2.6.2-win-x64.zip'
-$checksum64  = '7ac5e2d5388ef81204e279ed07c19ef682f883618247c23fd037cee49f08bf34'
+$url64       = 'https://github.com/TASVideos/BizHawk/releases/download/2.6.3/BizHawk-2.6.3-win-x64.zip'
+$checksum64  = '374076fbbd53c65cce6aea670f516050084b881e025e2ff5b9b0df54fd0dcc41'
 
 $packageArgs = @{
   packageName    = $packageName
