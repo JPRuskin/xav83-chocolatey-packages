@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'cairoshell'
-$url32       = 'https://github.com/cairoshell/cairoshell/releases/download/v0.4.133/CairoSetup_32bit.exe'
-$url64       = 'https://github.com/cairoshell/cairoshell/releases/download/v0.4.133/CairoSetup_64bit.exe'
-$checksum32  = '34edfaebb6bb34368fb65f8ae438c1d743d7cedf38056b2bf3bc6d847bff5f39'
-$checksum64  = 'c6408e7c9ec64e625526b758fa93da178c8e81bac9aef8853d016d1fc6fcc9eb'
+$url32       = 'https://github.com/cairoshell/cairoshell/releases/download/v0.4.164/CairoSetup_32bit.exe'
+$url64       = 'https://github.com/cairoshell/cairoshell/releases/download/v0.4.164/CairoSetup_64bit.exe'
+$checksum32  = 'facfa69ff6a288c9e66693ab1fad9dccbf3bcbb824378178235d0f97f72c6a54'
+$checksum64  = 'dd96c128f20b8a0268fda035afdd233286435d6fbd23843563450c8ebffc3da8'
 
 $packageArgs = @{
   packageName    = $packageName
