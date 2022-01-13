@@ -11,7 +11,7 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $releases = 'https://github.com/TV-Rename/tvrename/releases?after=4.0.9-alpha9'
+    $releases = 'https://github.com/TV-Rename/tvrename/releases'
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
     $re  = "TVRename-[0-9]+\.[0-9]+\.[0-9]+.exe"
