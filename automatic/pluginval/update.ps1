@@ -17,7 +17,7 @@ function global:au_GetLatest {
     $re  = "pluginval_Windows.zip$"
     $url = $download_page.links | ? href -match $re | select -First 1 -expand href
 
-    $version = $url -split '/' | select -Last 1 -Skip 1 | tr -d v
+    $version = $url -split '/' -replace 'v','' | select -Last 1 -Skip 1
     $url64 = 'https://github.com' + $url
 
     $Latest = @{ URL64 = $url64; Version = $version }

@@ -19,7 +19,7 @@ function global:au_GetLatest {
     $re  = "doxybook2-windows-win(32|64)-v.+.zip$"
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
-    $version = $url[0] -split '/' | select -Last 1 -Skip 1 | tr -d v
+    $version = $url[0] -split '/' -replace 'v','' | select -Last 1 -Skip 1
     $url32 = 'https://github.com' + $url[0]
     $url64 = 'https://github.com' + $url[1]
 
