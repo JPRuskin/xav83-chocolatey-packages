@@ -15,7 +15,10 @@ $packageArgs = @{
   checksum64     = $checksum64
   checksumType   = 'sha256'
   checksumType64 = 'sha256'
-  silentArgs     = '/SD'
+  silentArgs     = '/S'
   validExitCodes = @(0)
 }
+
+Get-Process -Name CairoDesktop -ErrorAction SilentlyContinue | Stop-Process
+
 Install-ChocolateyPackage @packageArgs
