@@ -16,7 +16,7 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "github.com.+ccache-.+-windows-(32|64).zip$"
+    $re  = "github.com.+ccache-.+-windows-.+.zip$"
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
     $version = $url[0] -split '/' -replace 'v','' | select -Last 1 -Skip 1
