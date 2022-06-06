@@ -1,3 +1,4 @@
+param([switch]$Force)
 import-module au
 
 $releases = 'https://github.com/joncampbell123/dosbox-x/releases'
