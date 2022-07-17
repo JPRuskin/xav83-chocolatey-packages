@@ -26,7 +26,7 @@ environment:
   # Github token to commit pushed packages to repository
   github_user_repo: Xav83/chocolatey-packages
   github_api_key:
-    secure: 8hKxELNcChJHIoGKC1p8G4fE/08QoXDEQItjmujm8+HN6tR5oIJmCkEYQOMpXuwY #https://ci.appveyor.com/tools/encrypt
+    secure: 6B/YkO7ZI7f9ofSmuiUdfJX5jAf6dAD8s7wgf8BxzVvmopDEW3miKOAsA9BYokGT #https://ci.appveyor.com/tools/encrypt
 
 
   # Mail credentials - for error notifications
