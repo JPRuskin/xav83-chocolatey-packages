@@ -1,6 +1,7 @@
+param([switch]$Force)
 import-module au
 
-$releases = 'https://github.com/joncampbell123/dosbox-x/releases'
+$releases = 'https://github.com/ciderapp/cider-releases/releases'
 
 function global:au_SearchReplace {
     @{
@@ -14,10 +15,10 @@ function global:au_SearchReplace {
 function global:au_GetLatest {
     $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
 
-    $re  = "dosbox-x-win(32|64)-.+-setup.exe$"
+    $re = "Cider-Setup-.+"
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
-    $version = $url[0] -split '/' -split '-' -replace 'v','' | select -First 1 -Skip 8
+    $version = $url[0] -split '-' | select -Last 1 -Skip 1
     $url32 = 'https://github.com' + $url[0]
 
     $Latest = @{ URL32 = $url32; Version = $version }
