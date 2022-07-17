@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>cider</id>
+    <title>Cider</title>
+    <version>1.5.1</version>
+    <authors>ciderapp</authors>
+    <owners>Xav83</owners>
+    <summary>A new cross-platform Apple Music experience</summary>
+    <description>
+A new cross-platform Apple Music experience based on Electron and Vue.js written from scratch with performance in mind.
+    </description>
+    <projectUrl>https://cider.sh</projectUrl>
+    <tags>electron audio music windows macos linux open-source community performance music-player music-library discord lyrics itunes apple-music audio-player audio-streaming cider applemusic apple-music-electron</tags>
+    <iconUrl>https://raw.githubusercontent.com/ciderapp/cider.sh/main/assets/img/Cider-Logo.png</iconUrl>
+    <copyright>GNU Affero General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/ciderapp/Cider/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Release Notes](https://github.com/ciderapp/cider-releases/releases)</releaseNotes>
+    <docsUrl>https://docs.cider.sh/</docsUrl>
+    <bugTrackerUrl>https://github.com/ciderapp/Cider/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ciderapp/Cider</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/cider</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
