@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>steam-rom-manager</id>
+    <title>Steam ROM Manager</title>
+    <version>2.3.40</version>
+    <authors>SteamGridDB</authors>
+    <owners>Xav83</owners>
+    <summary>An app for managing ROMs in Steam</summary>
+    <description>
+Steam ROM Manager is a super flexible tool for adding non-Steam games to steam in bulk and managing their artwork assets.
+Added games could be ROMs for emulators, games from other stores such as Epic or GOG, or even not games at all.
+Have you always wanted your notes from junior year as a category in steam?
+If so that's pretty weird! But now it's possible.
+    </description>
+    <projectUrl>https://github.com/SteamGridDB/steam-rom-manager</projectUrl>
+    <tags>rom steam video-game games gaming</tags>
+    <!--<iconUrl>https://raw.githubusercontent.com/manga-download/hakuneko/master/res/icns/logo_128.png</iconUrl>-->
+    <copyright>GNU General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/SteamGridDB/steam-rom-manager/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Changelog](https://github.com/SteamGridDB/steam-rom-manager/blob/master/CHANGELOG.md)</releaseNotes>
+    <docsUrl>https://steamgriddb.github.io/steam-rom-manager</docsUrl>
+    <bugTrackerUrl>https://github.com/SteamGridDB/steam-rom-manager/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/SteamGridDB/steam-rom-manager</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/steam-rom-manager</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
