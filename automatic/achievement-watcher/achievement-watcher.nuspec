@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>achievement-watcher</id>
+    <title>Achievement Watcher</title>
+    <version>1.6.7</version>
+    <authors>xan105</authors>
+    <owners>Xav83</owners>
+    <summary>A sexy achievement file parser with real-time notification, automatic screenshot and playtime tracking.</summary>
+    <description>
+A sexy achievement file parser with real-time notification, automatic screenshot and playtime tracking.
+View every achievements earned on your PC whether it's coming from Steam, a Steam emulator, and more.
+    </description>
+    <projectUrl>https://xan105.github.io/Achievement-Watcher/</projectUrl>
+    <tags>steam notification uplay rpcs3 trophy achievement playtime-tracking</tags>
+    <iconUrl>https://rawcdn.githack.com/xan105/Achievement-Watcher/1507bc5e2fa570cc46e5a225ae0a4a282b897d5f/app/resources/icon/icon.png</iconUrl>
+    <copyright>GNU Lesser General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/xan105/Achievement-Watcher/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Release Notes](https://github.com/xan105/Achievement-Watcher/releases)</releaseNotes>
+    <docsUrl>https://github.com/xan105/Achievement-Watcher/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/xan105/Achievement-Watcher/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/xan105/Achievement-Watcher</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/achievement-watcher</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
