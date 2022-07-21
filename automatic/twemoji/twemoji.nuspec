@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>twemoji</id>
+    <title>Twitter Color Emoji SVGinOT Font</title>
+    <version>13.1.0</version>
+    <authors>13rac1</authors>
+    <owners>Xav83</owners>
+    <summary>Twitter Unicode 13.1 emoji color OpenType-SVG font for Linux/MacOS/Windows</summary>
+    <description>
+A color and B W emoji SVG-OpenType / SVGinOT font built from the Twitter Emoji for Everyone artwork with support for ZWJ, skin tone diversity and country flags.    </description>
+    <projectUrl>https://github.com/eosrei/twemoji-color-font</projectUrl>
+    <tags>emoji linux font monospace-font svginot color-emoji twitter-emoji color-font opentype-svg-fonts </tags>
+    <!--<iconUrl>https://raw.githubusercontent.com/manga-download/hakuneko/master/res/icns/logo_128.png</iconUrl>-->
+    <copyright>MIT Licence</copyright>
+    <licenseUrl>https://github.com/eosrei/twemoji-color-font/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Package Release Notes](https://github.com/eosrei/twemoji-color-font/releases)</releaseNotes>
+    <docsUrl>https://github.com/eosrei/twemoji-color-font#examples</docsUrl>
+    <bugTrackerUrl>https://github.com/eosrei/twemoji-color-font/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/eosrei/twemoji-color-font</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/twemoji</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
