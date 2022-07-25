@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>unofficial-Google-Chat-Electron</id>
+    <title>Unofficial Desktop app for Google Chat</title>
+    <version>2.17.0</version>
+    <authors>ankurk91</authors>
+    <owners>Xav83</owners>
+    <summary>An unofficial desktop app for Google Chat :electron:</summary>
+    <description>An unofficial desktop app for Google Chat built with Electron</description>
+    <projectUrl>https://www.electronjs.org/apps/google-chat-electron</projectUrl>
+    <tags>electron windows macos linux ubuntu hangouts desktop google-chat</tags>
+    <iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>
+    <copyright>GNU General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/ankurk91/google-chat-electron/blob/main/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/ankurk91/google-chat-electron/releases)</releaseNotes>
+    <docsUrl>https://github.com/ankurk91/google-chat-electron#readme</docsUrl>
+    <bugTrackerUrl>https://github.com/ankurk91/google-chat-electron/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ankurk91/google-chat-electron</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/unofficial-Google-Chat-Electron</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
