@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>unofficial-google-meet</id>
+    <title>Google Meet Desktop (Unofficial)</title>
+    <version>1.2.0</version>
+    <authors>arjun-g</authors>
+    <owners>Xav83</owners>
+    <summary>An unofficial desktop app for Google Meet</summary>
+    <description>Unofficial desktop application for Google Meet built with electron.</description>
+    <projectUrl>https://github.com/arjun-g/google-meet-desktop</projectUrl>
+    <tags>electron google googlemeet</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <copyright>MIT License</copyright>
+    <licenseUrl>https://github.com/arjun-g/google-meet-desktop/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/arjun-g/google-meet-desktop/releases)</releaseNotes>
+    <docsUrl>https://github.com/arjun-g/google-meet-desktop/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/arjun-g/google-meet-desktop/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/arjun-g/google-meet-desktop</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/unofficial-google-meet</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
