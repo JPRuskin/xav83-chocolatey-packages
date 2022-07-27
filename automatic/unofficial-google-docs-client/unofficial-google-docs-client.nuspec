@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>unofficial-google-docs-client</id>
+    <title>Google Docs (Unofficial)</title>
+    <version>2022.6.1</version>
+    <authors>Comp-Labs</authors>
+    <owners>Xav83</owners>
+    <summary>Google Docs Desktop App made with :electron:. Includes Google Docs, Sheets, Slides, Forms, and Drive.</summary>
+    <description>
+Google Docs is an Online Word Processor Developed by Google.
+It's design and features are very good from Free Office such as OpenOffice, LibreOffice etc.
+So we made an app for Google Docs, Sheets, Slides for Windows, macOS, and Linux.
+    </description>
+    <projectUrl>https://complabs.in/apps/google-docs</projectUrl>
+    <tags>electron windows macos app google-drive google-sheets google-docs linux-desktop google-slides google-forms </tags>
+    <iconUrl>https://rawcdn.githack.com/Comp-Labs/Google-Docs/v2022.3.10/icon.png</iconUrl>
+    <copyright>MIT License</copyright>
+    <licenseUrl>https://github.com/Comp-Labs/Google-Docs/blob/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/Comp-Labs/Google-Docs/releases)</releaseNotes>
+    <docsUrl>https://github.com/Comp-Labs/Google-Docs/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Comp-Labs/Google-Docs/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Comp-Labs/Google-Docs</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/unofficial-google-docs-client</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
