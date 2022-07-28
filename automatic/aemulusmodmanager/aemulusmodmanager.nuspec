@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>aemulusmodmanager</id>
+    <title>Aemulus Package Manager</title>
+    <version>6.1.2</version>
+    <authors>TekkaGB</authors>
+    <owners>Xav83</owners>
+    <summary>The Mod package manager made specifically for Persona 4 Golden on PC, Persona 3 FES, Persona 5, and Persona 5 Strikers.</summary>
+    <description>
+The wait is finally over!
+No longer will you have to manually merge conflicting bin, bmd, pm1, bf and tbl files found in different mods.
+This is the latest and greatest mod package manager, made specifically for Persona 4 Golden on PC, Persona 3 FES, Persona 5, and Persona 5 Strikers.
+    </description>
+    <projectUrl>https://github.com/TekkaGB/AemulusModManager</projectUrl>
+    <tags>mod package manager persona pc</tags>
+    <iconUrl>https://rawcdn.githack.com/TekkaGB/AemulusModManager/ad1bc53f972726cbc8547f08c54cf27bb8a5beb1/aemulus_overlay.png</iconUrl>
+    <copyright>GNU General Public License v3.0</copyright>
+    <licenseUrl>https://github.com/TekkaGB/AemulusModManager/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/TekkaGB/AemulusModManager/releases)</releaseNotes>
+    <docsUrl>https://github.com/TekkaGB/AemulusModManager/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/TekkaGB/AemulusModManager/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/TekkaGB/AemulusModManager</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/aemulusmodmanager</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
