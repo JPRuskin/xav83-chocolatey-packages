@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>keepassxc-legacy</id>
+    <title>KeePassXC Legacy</title>
+    <version>2.7.1</version>
+    <authors>KeePassXC</authors>
+    <owners>Xav83</owners>
+    <summary>KeePassXC is a cross-platform community-driven port of the Windows application “Keepass Password Safe”.</summary>
+    <description>
+KeePassXC is a modern, secure, and open-source password manager that stores and manages your most sensitive information.
+You can run KeePassXC on Windows, macOS, and Linux systems.
+KeePassXC is for people with extremely high demands of secure personal data management.
+It saves many different types of information, such as usernames, passwords, URLs, attachments, and notes in an offline, encrypted file that can be stored in any location, including private and public cloud solutions.
+For easy identification and management, user-defined titles and icons can be specified for entries.
+In addition, entries are sorted into customizable groups.
+An integrated search function allows you to use advanced patterns to easily find any entry in your database.
+A customizable, fast, and easy-to-use password generator utility allows you to create passwords with any combination of characters or easy to remember passphrases.
+    </description>
+    <projectUrl>https://keepassxc.org/</projectUrl>
+    <tags>windows macos linux security privacy cross-platform password-manager yubikey password keepass hacktoberfest keepassxc</tags>
+    <iconUrl>https://cdn.jsdelivr.net/gh/chocolatey-community/chocolatey-packages@4315dbe8325d644de2026206bdc5c16a11c1f5cc/icons/keepassxc.svg</iconUrl>
+    <copyright>GNU LESSER GENERAL PUBLIC LICENSE Version 3</copyright>
+    <licenseUrl>https://github.com/keepassxreboot/keepassxc/blob/develop/LICENSE.LGPL-3</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Changelog](https://github.com/keepassxreboot/keepassxc/blob/develop/CHANGELOG.md)</releaseNotes>
+    <docsUrl>https://github.com/keepassxreboot/keepassxc/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/keepassxreboot/keepassxc/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/keepassxreboot/keepassxc</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/keepassxc-legacy</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
