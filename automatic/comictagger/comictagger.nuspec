@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>comictagger</id>
+    <title>ComicTagger</title>
+    <version>1.4.3</version>
+    <authors>ComicTagger team</authors>
+    <owners>Xav83</owners>
+    <summary>A multi-platform app for writing metadata to digital comics</summary>
+    <description>
+ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.
+    </description>
+    <projectUrl>https://github.com/comictagger/comictagger</projectUrl>
+    <tags>comictagger comics comic metadata tagging tagger</tags>
+    <iconUrl>https://rawcdn.githack.com/comictagger/comictagger/94be266e17ae5ff723fa9b10935555e0c694dad0/comictaggerlib/graphics/app.png</iconUrl>
+    <copyright>Apache Software License (Apache License 2.0)</copyright>
+    <licenseUrl>https://pypi.org/project/comictagger/</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/comictagger/comictagger/wiki/ReleaseNotes)</releaseNotes>
+    <docsUrl>https://github.com/comictagger/comictagger/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/comictagger/comictagger/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/comictagger/comictagger</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/comictagger</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
