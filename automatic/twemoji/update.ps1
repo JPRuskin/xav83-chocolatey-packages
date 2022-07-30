@@ -1,4 +1,3 @@
-param([switch]$Force)
 import-module au
 
 $releases = 'https://github.com/eosrei/twemoji-color-font/releases'

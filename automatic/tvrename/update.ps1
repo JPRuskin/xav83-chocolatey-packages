@@ -1,4 +1,3 @@
-param([switch]$Force)
 import-module au
 
 function global:au_SearchReplace {
