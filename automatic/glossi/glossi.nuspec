@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>glossi</id>
+    <title>GlosSI</title>
+    <version>0.0.7.0</version>
+    <authors>Alia5</authors>
+    <owners>Xav83</owners>
+    <summary>Tool for using Steam-Input controller rebinding at a system level alongside a global overlay</summary>
+    <description>
+GlosSI or [Glo]bal ([s]ystemwide) [S]team [I]nput, formerly knows as GloSC (Global Steam Controller), is a tool that allows one to use Steam-Input controller rebinding at a system-level alongside a system wide (borderless window) Steam overlay
+All complete with per application bindings and working rumble emulation.
+GlosSI can, but isn't required to, launch any of your favorite games or applications and directly add them to Steam, be it Win32 or Windows Store (UWP)!
+It is the tool to enjoy any game that has trouble with Steam and/or add extra functionality to your Steam-Input needs
+    </description>
+    <projectUrl>https://alia5.github.io/GlosSI/</projectUrl>
+    <tags>steam controller uwp overlay steamcontroller uwp-games dualshock dualshock4 steam-input</tags>
+    <iconUrl>https://rawcdn.githack.com/Alia5/GlosSI/ee8157e38655f36c4d3ce132de68dd7e6bca9948/GloSC_Icon.ico</iconUrl>
+    <copyright>Copyright 2017-2022 Peter Repukat - FlatspotSoftware</copyright>
+    <licenseUrl>https://github.com/Alia5/GlosSI/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/Alia5/GlosSI/releases)</releaseNotes>
+    <docsUrl>https://github.com/Alia5/GlosSI/blob/main/Readme.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Alia5/GlosSI/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Alia5/GlosSI</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/glossi</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
