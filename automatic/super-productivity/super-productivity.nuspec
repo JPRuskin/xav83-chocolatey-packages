@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>super-productivity</id>
+    <title>Super Productivity</title>
+    <version>7.11.5</version>
+    <authors>johannesjo</authors>
+    <owners>Xav83</owners>
+    <summary>Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities.</summary>
+    <description>
+    Super Productivity is an advanced todo list app with integrated Timeboxing and time tracking capabilities.
+    It also comes with integrations for Jira, Gitlab, GitHub and Open Project. 
+    </description>
+    <projectUrl>https://super-productivity.com/</projectUrl>
+    <tags>macos linux productivity todo jira to-do-list electron-app time-tracker task-manager hacktoberfest timetracking hacktoberfest2021 </tags>
+    <iconUrl>https://rawcdn.githack.com/johannesjo/super-productivity/5694117f094653c7e1595b89db02eaa05ebd504a/screens/banner-bw.png</iconUrl>
+    <copyright>Copyright (c) 2018 Johannes Millan</copyright>
+    <licenseUrl>https://github.com/johannesjo/super-productivity/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Changelog](https://github.com/johannesjo/super-productivity/blob/master/CHANGELOG.md)</releaseNotes>
+    <docsUrl>https://github.com/johannesjo/super-productivity/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/johannesjo/super-productivity/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/johannesjo/super-productivity</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/super-productivity</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
