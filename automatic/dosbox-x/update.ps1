@@ -19,7 +19,7 @@ function global:au_GetLatest {
     $re  = "dosbox-x-win(32|64)-.+-setup.exe$"
     $url = $download_page.links | ? href -match $re | select -First 2 -expand href
 
-    $version = $url[0] -split '/' -split '-' -replace 'v','' | select -First 1 -Skip 8
+    $version = (($url[0] -split '/' | select -Last 1 -Skip 1) -split '-' | select -Last 1) -replace 'v',''
     $url32 = 'https://github.com' + $url[0]
     $url64 = 'https://github.com' + $url[1]
 
