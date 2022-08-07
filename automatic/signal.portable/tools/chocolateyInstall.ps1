@@ -9,7 +9,7 @@ $packageArgs = @{
   url64Bit       = $url64
   checksum64     = $checksum64
   checksumType64 = 'sha256'
-  silentArgs     = '/SILENT'
+  silentArgs     = '/SILENT /SP-'
   validExitCodes= @(0)
 }
 
