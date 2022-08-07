@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>sharik</id>
+    <title>Sharik</title>
+    <version>3.1</version>
+    <authors>marchellodev</authors>
+    <owners>Xav83</owners>
+    <summary>Sharik is an open-source, cross-platform solution for sharing files via Wi-Fi or Mobile Hotspot</summary>
+    <description>
+Sharik is an open-source, cross-platform solution for sharing files via Wi-Fi or Mobile Hotspot.
+The app works with a Wi-Fi connection or a Wi-Fi Hotspot.
+No internet connection is needed.
+It is available for Android, iOS, Windows, Mac, and Linux.
+    </description>
+    <projectUrl>https://github.com/marchellodev/sharik</projectUrl>
+    <tags>android windows macos linux app cross-platform file-sharing flutter</tags>
+    <iconUrl>https://rawcdn.githack.com/marchellodev/sharik/23f699d3633d0c91104be640a0e22fabc61396ac/media/banner.png</iconUrl>
+    <copyright>Copyright 2020 marchellodev</copyright>
+    <licenseUrl>https://github.com/marchellodev/sharik/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/marchellodev/sharik/releases)</releaseNotes>
+    <docsUrl>https://github.com/marchellodev/sharik/blob/master/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/marchellodev/sharik/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/marchellodev/sharik</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/sharik</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
