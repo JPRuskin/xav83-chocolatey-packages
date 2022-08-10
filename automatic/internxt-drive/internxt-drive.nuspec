@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>internxt-drive</id>
+    <title>Electron React Boilerplate</title>
+    <version>1.9.1</version>
+    <authors>ankurk91</authors>
+    <owners>Xav83</owners>
+    <summary>The safest cloud storage for all your files, photos, and more.</summary>
+    <description>
+Syncing, backing up, and sharing your files in total privacy couldn’t be easier.
+With Internxt Drive we focus on user-friendly encrypted storage with military-grade encryption and file sharding, so only you have control over your files and data.
+    </description>
+    <projectUrl>https://internxt.com/drive</projectUrl>
+    <tags>windows macos linux cloud storage decentralized blockchain desktop cloud-storage</tags>
+    <iconUrl>https://rawcdn.githack.com/internxt/drive-desktop/8ab0c4b75e6a1d6ae5f0567579a934f562eab498/assets/icons/256x256.png</iconUrl>
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/internxt/drive-desktop/blob/master-erb/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/internxt/drive-desktop/blob/master-erb/CHANGELOG.md)</releaseNotes>
+    <docsUrl>https://electron-react-boilerplate.js.org/docs/installation</docsUrl>
+    <bugTrackerUrl>https://github.com/internxt/drive-desktop/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/internxt/drive-desktop</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/internxt-drive</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
