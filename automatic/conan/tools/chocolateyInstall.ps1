@@ -22,4 +22,4 @@ Install-ChocolateyPackage @packageArgs
 
 # Add conan to PATH
 $conan_path = "C:\Program Files\Conan\conan"
-Install-ChocolateyPath -PathToInstall $conan_path -PathType User
+Install-ChocolateyPath -PathToInstall $conan_path -PathType Process
