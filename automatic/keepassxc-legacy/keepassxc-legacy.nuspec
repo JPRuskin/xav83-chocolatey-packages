@@ -18,6 +18,9 @@ For easy identification and management, user-defined titles and icons can be spe
 In addition, entries are sorted into customizable groups.
 An integrated search function allows you to use advanced patterns to easily find any entry in your database.
 A customizable, fast, and easy-to-use password generator utility allows you to create passwords with any combination of characters or easy to remember passphrases.
+
+Note:
+> The latest versions of KeePassXC have stopped working on legacy Windows versions, like Windows 7 and 8.1. The developers graciously release a separate legacy version of the Windows installer. This Chocolatey package should exist side-by-side the keepassxc package. Maybe with an explicit note in the description that it is the one to be installed on Windows 8.1 and below.
     </description>
     <projectUrl>https://keepassxc.org/</projectUrl>
     <tags>windows macos linux security privacy cross-platform password-manager yubikey password keepass hacktoberfest keepassxc</tags>
