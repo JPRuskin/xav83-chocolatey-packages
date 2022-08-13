@@ -1,5 +1,8 @@
 param([switch]$Force)
 import-module au
+$global:au_version = '2.7.1.20220729'
+$Env:au_version = '2.7.1.20220729'
+$au_Version = '2.7.1.20220729'
 
 $releases = 'https://github.com/keepassxreboot/keepassxc/releases'
 
