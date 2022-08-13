@@ -4,7 +4,7 @@
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>internxt-drive</id>
-    <title>Electron React Boilerplate</title>
+    <title>Internxt Drive</title>
     <version>1.9.1</version>
     <authors>ankurk91</authors>
     <owners>Xav83</owners>
