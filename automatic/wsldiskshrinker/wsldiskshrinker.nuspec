@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>wsldiskshrinker</id>
+    <title>WSL Disk Shrinker</title>
+    <version>0.2.2</version>
+    <authors>kxxt</authors>
+    <owners>Xav83</owners>
+    <summary>Reduce WSL disk usage.</summary>
+    <description>
+Facing smaller and smaller C disk space ? Growing WSL disk usage?
+This is the right tool you are searching for!
+This small tool can help you reduce the disk usage of WSL distros.
+    </description>
+    <projectUrl>https://github.com/kxxt/WSLDiskShrinker</projectUrl>
+    <tags>disk-space wsl windows-subsystem-linux vhdx vhdxfiles windows-subsystem-for-linux vhdx-files</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <copyright>Copyright (c) 2021 Believers in Science Studio</copyright>
+    <licenseUrl>https://github.com/kxxt/WSLDiskShrinker/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/kxxt/WSLDiskShrinker/releases)</releaseNotes>
+    <docsUrl>https://github.com/kxxt/WSLDiskShrinker/blob/master/README.MD</docsUrl>
+    <bugTrackerUrl>https://github.com/kxxt/WSLDiskShrinker/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/kxxt/WSLDiskShrinker</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/wsldiskshrinker</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
