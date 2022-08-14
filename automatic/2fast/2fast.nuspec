@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>2fast</id>
+    <title>2fast</title>
+    <version>1.1.0</version>
+    <authors>2fast-team</authors>
+    <owners>Xav83</owners>
+    <summary> Two-Factor Authenticator Supporting TOTP (Windows 10 and Android, iOS, Linux and macOS App)</summary>
+    <description>
+2fast (acronym for two factor authenticator supporting TOTP) is the first free, open source, two factor authenticator for Windows and Android with the ability to store the sensitive data encrypted at a place of your choice instead of a 3rd party cloud location.
+    </description>
+    <projectUrl>https://2fast-app.de</projectUrl>
+    <tags>android c-sharp authentication password windows-10 uwp-apps totp authenticator</tags>
+    <iconUrl>https://rawcdn.githack.com/2fast-team/2fast/2a99b3d1fdbfcd2c9d0b99a04face4ae1642b2b5/Project2FA/Project2FA.UWP/Assets/StoreLogo.scale-400.png</iconUrl>
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/2fast-team/2fast/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/2fast-team/2fast/releases)</releaseNotes>
+    <docsUrl>https://github.com/2fast-team/2fast/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/2fast-team/2fast/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/2fast-team/2fast</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/2fast</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
