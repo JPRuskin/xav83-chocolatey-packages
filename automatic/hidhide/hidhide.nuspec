@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>hidhide</id>
+    <title>HidHide</title>
+    <version>1.2.98</version>
+    <authors>Virtual Gamepad Emulation Framework</authors>
+    <owners>Xav83</owners>
+    <summary>Gaming Input Peripherals Device Firewall for Windows</summary>
+    <description>
+HidHide is an "input device firewall" inspired by HidGuardian but designed and written from scratch.
+It allows for blocking individual applications access to HID and XInput devices, allowing users to re-route and re-map controller inputs as they please.
+    </description>
+    <projectUrl>https://vigem.org/projects/HidHide</projectUrl>
+    <tags>controller game gamepad videogame emulation peripherals device input gaming</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <copyright>Copyright (c) 2020 Eric Korff de Gidts</copyright>
+    <licenseUrl>https://github.com/ViGEm/HidHide/blob/master/LICENSE.rtf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/ViGEm/HidHide/releases)</releaseNotes>
+    <docsUrl>https://vigem.org/projects/HidHide/API-Documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/ViGEm/HidHide/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ViGEm/HidHide</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/hidhide</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
