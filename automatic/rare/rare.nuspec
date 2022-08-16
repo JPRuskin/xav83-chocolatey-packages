@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>rare</id>
+    <title>Rare</title>
+    <version>1.8.9</version>
+    <authors>Dummerle</authors>
+    <owners>Xav83</owners>
+    <summary>GUI for legendary. An Epic Games Launcher open source alternative</summary>
+    <description>
+A frontend for legendary, the open source Epic Games Launcher alternative.
+Rare is a graphical interface for Legendary, a command line alternative to Epic Games launcher, based on PyQt5.
+    </description>
+    <projectUrl>https://github.com/Dummerle/Rare</projectUrl>
+    <tags>linux games frontend pyqt5 epic-games legendary epic-games-launcher</tags>
+    <iconUrl>https://rawcdn.githack.com/Dummerle/Rare/e6fc2323f184b7f59a615038441ed84bacb57abf/rare/resources/images/Rare.png</iconUrl>
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/Dummerle/Rare/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/Dummerle/Rare/releases)</releaseNotes>
+    <docsUrl>https://github.com/Dummerle/Rare/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/Dummerle/Rare/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Dummerle/Rare</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/rare</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
