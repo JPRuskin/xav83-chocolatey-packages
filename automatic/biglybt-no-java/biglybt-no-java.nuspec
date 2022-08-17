@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
-    <id>biglybtwiithoutjava64bit</id>
+    <id>biglybt-no-java</id>
     <title>BiglyBT</title>
     <version>3.1.0</version>
     <authors>Bigly Software</authors>
@@ -27,7 +27,7 @@ With over 15 years of development, there's a good chance we have the features yo
     <docsUrl>https://github.com/BiglySoftware/BiglyBT/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/BiglySoftware/BiglyBT/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/BiglySoftware/BiglyBT</projectSourceUrl>
-    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/biglybtwiithoutjava64bit</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/biglybt-no-java</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
