@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>64gram</id>
+    <title>64Gram</title>
+    <version>1.0.44</version>
+    <authors>TDesktop-x64</authors>
+    <owners>Xav83</owners>
+    <summary>64Gram (unofficial Telegram Desktop)</summary>
+    <description>Windows 64bit build with some enhancements of Telegram Desktop</description>
+    <projectUrl>https://github.com/TDesktop-x64/tdesktop</projectUrl>
+    <tags>telegram desktop windows</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/TDesktop-x64/tdesktop/blob/dev/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/TDesktop-x64/tdesktop/releases)</releaseNotes>
+    <docsUrl>https://github.com/TDesktop-x64/tdesktop/blob/dev/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/TDesktop-x64/tdesktop/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/TDesktop-x64/tdesktop</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/64Gram</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
