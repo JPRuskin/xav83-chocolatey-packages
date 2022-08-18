@@ -23,7 +23,7 @@
     <docsUrl>https://github.com/TDesktop-x64/tdesktop/blob/dev/README.md</docsUrl>
     <bugTrackerUrl>https://github.com/TDesktop-x64/tdesktop/issues</bugTrackerUrl>
     <projectSourceUrl>https://github.com/TDesktop-x64/tdesktop</projectSourceUrl>
-    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/64Gram</packageSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/64gram</packageSourceUrl>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
