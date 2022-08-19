@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>gmail-desktop</id>
+    <title>Gmail Desktop</title>
+    <version>3.0.0</version>
+    <authors>ankurk91</authors>
+    <owners>Xav83</owners>
+    <summary>Nifty Gmail desktop app for macOS, Linux and Windows</summary>
+    <description>:postbox: Nifty Gmail desktop app for macOS, Linux and Windows </description>
+    <projectUrl>https://github.com/timche/gmail-desktop</projectUrl>
+    <tags>electron windows macos linux app ubuntu email gmail electron-app macos-app gmail-desktop </tags>
+    <iconUrl>https://rawcdn.githack.com/timche/gmail-desktop/aff32742fbcdc7c7b238f440a6d00880bf9d407c/media/icon.svg</iconUrl>
+    <copyright>Copyright (c) Tim Cheung</copyright>
+    <licenseUrl>https://github.com/timche/gmail-desktop/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/timche/gmail-desktop/releases)</releaseNotes>
+    <docsUrl>https://github.com/timche/gmail-desktop/blob/main/README.md</docsUrl>
+    <bugTrackerUrl>https://github.com/timche/gmail-desktop/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/timche/gmail-desktop</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/gmail-desktop</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
