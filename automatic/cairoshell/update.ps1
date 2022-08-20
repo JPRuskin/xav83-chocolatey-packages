@@ -19,7 +19,7 @@ function global:au_GetLatest {
     $re  = "CairoSetup_(32|64)bit.exe$"
     $url = $download_page.links | Where-Object href -match $re | Select-Object -First 2 -expand href
 
-    $version = $url[0] -split '/' -replace 'v','' | Select-Object -Last 1 -Skip 1
+    $version = ($url[0] -split '/' | select -Last 1 -Skip 1) -replace 'v',''
     $url32 = 'https://github.com' + $url[0]
     $url64 = 'https://github.com' + $url[1]
 
