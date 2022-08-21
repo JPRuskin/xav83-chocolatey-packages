@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>qrcp</id>
+    <title>qrcp</title>
+    <version>0.9.1</version>
+    <authors>claudiodangelis</authors>
+    <owners>Xav83</owners>
+    <summary>Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal.</summary>
+    <description>
+Transfer files over Wi-Fi from your computer to a mobile device by scanning a QR code without leaving the terminal.
+
+qrcp binds a web server to the address of your Wi-Fi network interface on a random port and creates a handler for it.
+The default handler serves the content and exits the program when the transfer is complete.
+When used to receive files, qrcp serves an upload page and handles the transfer.
+    </description>
+    <projectUrl>https://claudiodangelis.com/qrcp/</projectUrl>
+    <tags>golang utility qrcode</tags>
+    <iconUrl>https://rawcdn.githack.com/claudiodangelis/qrcp/63dc1029bbf04688d2d3bec30a47d21b6eece43e/logo.svg</iconUrl>
+    <copyright>Copyright (c) 2018 Claudio d'Angelis</copyright>
+    <licenseUrl>https://github.com/claudiodangelis/qrcp/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/claudiodangelis/qrcp/releases)</releaseNotes>
+    <docsUrl>https://github.com/claudiodangelis/qrcp#usage</docsUrl>
+    <bugTrackerUrl>https://github.com/claudiodangelis/qrcp/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/claudiodangelis/qrcp</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/qrcp</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
