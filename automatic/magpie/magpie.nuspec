@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>magpie</id>
+    <title>MAGPIE</title>
+    <version>0.9.1</version>
+    <authors>Blinue</authors>
+    <owners>Xav83</owners>
+    <summary>Magpie magnifies any window to fullscreen with a handful of algorithms/filter</summary>
+    <description>
+Magpie magnifies any window to fullscreen with a handful of algorithms/filter.
+The main goal is to tackle the situations where the games either do not natively support fullscreen or display blurry images under fullscreen modes.
+    </description>
+    <projectUrl>https://github.com/Blinue/Magpie</projectUrl>
+    <tags>capture hlsl super-resolution magnifier cppwinrt fsr anime4k</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/Blinue/Magpie/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/Blinue/Magpie/releases)</releaseNotes>
+    <docsUrl>https://github.com/Blinue/Magpie/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/Blinue/Magpie/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Blinue/Magpie</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/magpie</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
