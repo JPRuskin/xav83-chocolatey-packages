@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>athens</id>
+    <title>Athens</title>
+    <version>2.1.0</version>
+    <authors>Athens Research</authors>
+    <owners>Xav83</owners>
+    <summary>A collaborative knowledge graph for startup teams</summary>
+    <description>
+Athens helps startups and product teams connect notes, tasks, and insights in a single workspace.
+Athens does this through a graph database that enables bottom-up structure and rapid experimentation of processes and workflows.
+    </description>
+    <projectUrl>https://www.athensresearch.org/</projectUrl>
+    <tags>knowledge-graph knowledge-base memex knowledge-management notetaking tools-for-thought </tags>
+    <iconUrl>https://rawcdn.githack.com/athensresearch/athens/962c46434e841fad4216cbc4c37e313ea5c856ba/resources/public/favicon.png</iconUrl>
+    <copyright>Eclipse Public License - v 1.0</copyright>
+    <licenseUrl>https://github.com/athensresearch/athens/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Changelog](https://github.com/athensresearch/athens/blob/main/CHANGELOG.md)</releaseNotes>
+    <docsUrl>https://athensresearch.github.io/docs/</docsUrl>
+    <bugTrackerUrl>https://github.com/athensresearch/athens/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/athensresearch/athens</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/athens</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
