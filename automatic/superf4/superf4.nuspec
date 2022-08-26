@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>superf4</id>
+    <title>SuperF4</title>
+    <version>1.4</version>
+    <authors>stefansundin</authors>
+    <owners>Xav83</owners>
+    <summary>Kill programs instantly with Ctrl+Alt+F4. (Windows)</summary>
+    <description>
+SuperF4 kills the foreground program when you press Ctrl+Alt+F4.
+This is different from when you press Alt+F4.
+When you press Alt+F4, the program can refuse to quit.
+Windows only asks the program to quit, and lets it decide for itself what to do.
+
+You can also kill a program by pressing Win+F4 and then clicking the window with your mouse cursor.
+You can press escape or the right mouse button to exit this mode without killing a program.
+
+Some games have anti-keylogger protection, which may prevent SuperF4 from working (it can't detect when you press Ctrl+Alt+F4).
+You can enable TimerCheck to use an alternate detection method.
+    </description>
+    <projectUrl>https://stefansundin.github.io/superf4/</projectUrl>
+    <tags>windows shortcut</tags>
+    <iconUrl>https://rawcdn.githack.com/stefansundin/superf4/6b677d422553e6b908b9eeaff4333b8b457e7bef/media/bowser.png</iconUrl>
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/stefansundin/superf4/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/stefansundin/superf4/releases)</releaseNotes>
+    <docsUrl>https://stefansundin.github.io/superf4</docsUrl>
+    <bugTrackerUrl>https://github.com/stefansundin/superf4/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ankurk91/google-chat-electron</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/superf4</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
