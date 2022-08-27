@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>bot-framework-composer</id>
+    <title>Microsoft Bot Framework Composer</title>
+    <version>2.1.2</version>
+    <authors>Microsoft</authors>
+    <owners>Xav83</owners>
+    <summary>Dialog creation and management for Microsoft Bot Framework Applications</summary>
+    <description>
+Bot Framework Composer is an open-source, visual authoring canvas for developers and multi-disciplinary teams to design and build conversational experiences with Language Understanding and QnA Maker, and a sophisticated composition of bot replies (Language Generation).
+Within this tool, you'll have everything you need to build a sophisticated conversational experience.
+    </description>
+    <projectUrl>https://docs.microsoft.com/en-us/composer/</projectUrl>
+    <tags>microsoft bots chatbots conversational-ai</tags>
+    <iconUrl>https://rawcdn.githack.com/microsoft/BotFramework-Composer/771e3182af00d68e32c3b9a6bbc939e94d6d0874/docs/Assets/gh-banner.png</iconUrl>
+    <copyright>Copyright (c) Microsoft Corporation.</copyright>
+    <licenseUrl>https://github.com/microsoft/BotFramework-Composer/blob/main/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/microsoft/BotFramework-Composer/releases)</releaseNotes>
+    <docsUrl>https://github.com/microsoft/BotFramework-Composer/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/microsoft/BotFramework-Composer/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/microsoft/BotFramework-Composer</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/bot-framework-composer</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
