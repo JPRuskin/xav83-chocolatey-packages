@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>switchhosts</id>
+    <title>SwitchHosts</title>
+    <version>4.1.2</version>
+    <authors>oldj</authors>
+    <owners>Xav83</owners>
+    <summary>Switch hosts quickly!</summary>
+    <description>
+SwitchHosts is an App for hosts management and switching.
+It is a free and open source software.
+    </description>
+    <projectUrl>https://swh.app/</projectUrl>
+    <tags>electron hosts hostsfile hostseditor switch-hosts switchhosts</tags>
+    <iconUrl>https://rawcdn.githack.com/oldj/SwitchHosts/cd27432c23331fcc84a6f55c8c7a3ed0999a46ed/assets/app.svg</iconUrl>
+    <copyright>Apache License 2.0</copyright>
+    <licenseUrl>https://github.com/oldj/SwitchHosts/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/oldj/SwitchHosts/releases)</releaseNotes>
+    <docsUrl>https://github.com/oldj/SwitchHosts/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/oldj/SwitchHosts/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/oldj/SwitchHosts</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/switchhosts</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
