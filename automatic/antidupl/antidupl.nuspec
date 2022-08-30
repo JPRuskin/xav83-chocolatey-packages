@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>antidupl</id>
+    <title>AntiDupl</title>
+    <version>2.3.10</version>
+    <authors>ermig1979</authors>
+    <owners>Xav83</owners>
+    <summary>A program to search similar and defect pictures on the disk</summary>
+    <description>
+Typically, modern computer users have large collections of images in various formats.
+And then more these collections, then more likely to have the large number of duplicates.
+The natural desire of the user is to get rid of them.
+However, if the collection is large enough, do this manually is a very tedious and unproductive work.
+AntiDupl.NET program will help you automate this process.
+It can find and display duplicate images in the main graphic formats: JPEG, GIF, TIFF, BMP, PNG, EMF, WMF, EXIF, ICON, JP2, PSD, DDS and TGA.
+The comparison is based on the contents of the files, so the program can find not only almost identical, but similar images.
+In addition, the program can find images with some types of defects.
+
+AntiDupl.NET program is free and open-source software.
+It is simple to use, has high speed and accuracy of work, supports Russian, Byelorussian, German and English interface.
+    </description>
+    <projectUrl>https://ermig1979.github.io/AntiDupl/english/index.html</projectUrl>
+    <tags>graphic deduplication image</tags>
+    <iconUrl>https://rawcdn.githack.com/ermig1979/AntiDupl/b6f1fc4ae6784625ad93d342967f114e7bc2d918/docs/data/resources/icons/Icon.ico</iconUrl>
+    <copyright>Copyright (c) 2002-2019 Ihar Yermalayeu,  Dmitry Borisov</copyright>
+    <licenseUrl>https://github.com/ermig1979/AntiDupl/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/ermig1979/AntiDupl/releases)</releaseNotes>
+    <!--<docsUrl>https://github.com/ankurk91/google-chat-electron</docsUrl>-->
+    <bugTrackerUrl>https://github.com/ermig1979/AntiDupl/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/ermig1979/AntiDupl</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/antidupl</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
