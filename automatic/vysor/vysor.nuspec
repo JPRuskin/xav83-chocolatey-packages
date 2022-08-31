@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>vysor</id>
+    <title>Vysor</title>
+    <version>4.2.3</version>
+    <authors>koush</authors>
+    <owners>Xav83</owners>
+    <summary>Vysor - Mirror and Control your Phone</summary>
+    <description>
+Vysor puts your iOS or Android on your desktop.
+Use apps, play games, control your iOS or Android.
+A desktop or web app, compatible with all operating systems.
+    </description>
+    <projectUrl>https://www.vysor.io/</projectUrl>
+    <tags>android ios apple windows desktop phone mirror</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <!--<copyright>GNU General Public License v3.0</copyright>-->
+    <licenseUrl>https://github.com/koush/vysor.io/blob/master/VysorLicense.pdf</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Change Log](https://github.com/koush/vysor.io#change-log)</releaseNotes>
+    <docsUrl>https://github.com/koush/vysor.io/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/koush/vysor.io/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/koush/vysor.io</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/vysor</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
