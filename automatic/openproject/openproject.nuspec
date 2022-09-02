@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>openproject</id>
+    <title>OpenProject</title>
+    <version>12.2.2</version>
+    <authors>OpenProject</authors>
+    <owners>Xav83</owners>
+    <summary>OpenProject is the leading open source project management software.</summary>
+    <description>
+Open source project management software
+Efficient classic, agile or hybrid project management in a secure environment.
+    </description>
+    <projectUrl>https://www.openproject.org</projectUrl>
+    <tags>ruby project-planning roadmap angular timeline bug-tracker issue-tracker project-management kanban scrum ifc openproject gantt-chart workflows gantt boards bcf</tags>
+    <iconUrl>https://rawcdn.githack.com/opf/openproject/754fc7bfb07a18de41b0f3a17d3340b3e3730911/app/assets/images/logo_openproject.png</iconUrl>
+    <copyright>Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/opf/openproject/blob/dev/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://www.openproject.org/docs/release-notes)</releaseNotes>
+    <docsUrl>https://www.openproject.org/docs</docsUrl>
+    <bugTrackerUrl>https://www.openproject.org/docs/development/report-a-bug/</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/opf/openproject</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/openproject</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
