@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>fanficfare</id>
+    <title>FanFicFare</title>
+    <version>4.15.0</version>
+    <authors>JimmXinu</authors>
+    <owners>Xav83</owners>
+    <summary>FanFicFare is a tool for making eBooks from stories on fanfiction and other web sites.</summary>
+    <description>
+FanFicFare makes reading stories from various websites much easier by helping you download them to EBook files.
+
+FanFicFare was previously known as FanFictionDownLoader (AKA FFDL, AKA fanficdownloader).
+    </description>
+    <projectUrl>https://github.com/JimmXinu/FanFicFare</projectUrl>
+    <tags>python cli downloader ebook epub fanfiction calibre-plugin</tags>
+    <!--<iconUrl>https://rawcdn.githack.com/ankurk91/google-chat-electron/9a7f138f0994987775dd881ac33a5f35a72eeb93/resources/icons/normal/64.png</iconUrl>-->
+    <copyright> Copyright (C) 2007 Free Software Foundation, Inc.</copyright>
+    <licenseUrl>https://github.com/JimmXinu/FanFicFare/blob/main/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/JimmXinu/FanFicFare/releases)</releaseNotes>
+    <docsUrl>https://github.com/JimmXinu/FanFicFare/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/JimmXinu/FanFicFare/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/JimmXinu/FanFicFare</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/fanficfare</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
