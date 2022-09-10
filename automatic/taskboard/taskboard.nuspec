@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>taskboard</id>
+    <title>TaskBoard</title>
+    <version>1.0.2</version>
+    <authors>kiswa</authors>
+    <owners>Xav83</owners>
+    <summary>A Kanban-inspired app for keeping track of things that need to get done.</summary>
+    <description>
+A Kanban-inspired app for keeping track of things that need to get done.
+The goal of TaskBoard is to provide a simple and clean interface to a functional and minimal application for keeping track of tasks.
+    </description>
+    <projectUrl>https://taskboard.matthewross.me/</projectUrl>
+    <tags>markdown kanban task-manager task-board</tags>
+    <iconUrl>https://rawcdn.githack.com/kiswa/TaskBoard/21150fa150cc60d650e771cc98deea4f2e47fead/src/logo/SVG/taskboard.svg</iconUrl>
+    <copyright>Copyright (c) 2014-2020 Matthew Ross</copyright>
+    <licenseUrl>https://github.com/kiswa/TaskBoard/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/kiswa/TaskBoard/releases)</releaseNotes>
+    <docsUrl>https://github.com/kiswa/TaskBoard/wiki</docsUrl>
+    <bugTrackerUrl>https://github.com/kiswa/TaskBoard/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/kiswa/TaskBoard</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/taskboard</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
