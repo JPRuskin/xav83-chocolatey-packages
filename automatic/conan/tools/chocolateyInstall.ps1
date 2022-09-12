@@ -21,7 +21,7 @@ $packageArgs = @{
 Install-ChocolateyPackage @packageArgs
 
 # Add conan to PATH
-if (!Get-PackageParameters['PathType']) { Get-PackageParameters['PathType'] = 'Process' }
+if (!Get-PackageParameters['PathType']) { Get-PackageParameters['PathType'] = 'User' }
 
 $conan_path = "C:\Program Files\Conan\conan"
 Install-ChocolateyPath -PathToInstall $conan_path -PathType Get-PackageParameters['PathType']
