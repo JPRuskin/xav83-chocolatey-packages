@@ -20,7 +20,7 @@ function global:au_GetLatest {
 
     $re  = "AemulusPackageManagerv.+.7z"
 
-    $url = $assets_page.Links.Href -match $re | select -First 1 -expand href
+    $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = $url -split '/' | select -Last 1 -Skip 1
     $url64 = 'https://github.com' + $url
