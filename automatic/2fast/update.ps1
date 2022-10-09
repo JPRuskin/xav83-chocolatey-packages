@@ -12,11 +12,15 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $releases_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $release_tag_url = "https://github.com" + ($releases_page.Links.Href -match "/tag/" | Select-Object -First 1)
 
-    $re  = "Project2FA.UWP_1.1.0.0.zip"
+    $expanded_assets_url = $release_tag_url -replace "/tag/","/expanded_assets/"
+    $assets_page = Invoke-WebRequest -Uri $expanded_assets_url -UseBasicParsing
 
-    $url = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $re  = "Project2FA.UWP_.+_Store_Installer.zip"
+
+    $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = ($url -split '/' | select -Last 1 -Skip 1) -replace 'v',''
     $url64 = 'https://github.com' + $url
