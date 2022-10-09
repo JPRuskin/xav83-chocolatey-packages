@@ -1,5 +1,6 @@
 import-module au
 
+$releases = 'https://github.com/TV-Rename/tvrename/releases'
 function global:au_SearchReplace {
     @{
         'tools\chocolateyInstall.ps1' = @{
@@ -10,11 +11,14 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $releases = 'https://github.com/TV-Rename/tvrename/releases'
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $releases_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $release_tag_url = "https://github.com" + ($releases_page.Links.Href -match "/tag/" | Select-Object -First 1)
+
+    $expanded_assets_url = $release_tag_url -replace "/tag/","/expanded_assets/"
+    $assets_page = Invoke-WebRequest -Uri $expanded_assets_url -UseBasicParsing
 
     $re  = "TVRename-[0-9]+\.[0-9]+\.[0-9]+.exe"
-    $url = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = $url -split '/' | select -Last 1 -Skip 1
     $url = 'https://github.com' + $url
