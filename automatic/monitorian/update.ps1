@@ -12,11 +12,15 @@ function global:au_SearchReplace {
 }
 
 function global:au_GetLatest {
-    $download_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $releases_page = Invoke-WebRequest -Uri $releases -UseBasicParsing
+    $release_tag_url = "https://github.com" + ($releases_page.Links.Href -match "/tag/" | Select-Object -First 1)
 
-    $re  = "MonitorianInstaller3121.zip"
+    $expanded_assets_url = $release_tag_url -replace "/tag/","/expanded_assets/"
+    $assets_page = Invoke-WebRequest -Uri $expanded_assets_url -UseBasicParsing
 
-    $url = $download_page.links | ? href -match $re | select -First 1 -expand href
+    $re  = "MonitorianInstaller.+.zip"
+
+    $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = ($url -split '/' | select -Last 1 -Skip 1) -replace '-Installer',''
     $url64 = 'https://github.com' + $url
