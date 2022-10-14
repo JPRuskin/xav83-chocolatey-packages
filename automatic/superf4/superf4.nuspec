@@ -33,7 +33,7 @@ You can enable TimerCheck to use an alternate detection method.
     <releaseNotes>[Release Notes](https://github.com/stefansundin/superf4/releases)</releaseNotes>
     <docsUrl>https://stefansundin.github.io/superf4</docsUrl>
     <bugTrackerUrl>https://github.com/stefansundin/superf4/issues</bugTrackerUrl>
-    <projectSourceUrl>https://github.com/ankurk91/google-chat-electron</projectSourceUrl>
+    <projectSourceUrl>https://github.com/stefansundin/superf4</projectSourceUrl>
     <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/superf4</packageSourceUrl>
   </metadata>
   <files>
