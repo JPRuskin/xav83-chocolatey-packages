@@ -21,7 +21,7 @@ function global:au_GetLatest {
     $re = "Cider-Setup-.+"
     $url = $assets_page.Links.Href -match $re | select -First 2
 
-    $version = $url[0] -split '-' | select -Last 1 -Skip 1
+    $version = ($url[0] -split '/' | select -Last 1 -Skip 1) -replace 'v',''
     $url32 = 'https://github.com' + $url[0]
 
     $Latest = @{ URL32 = $url32; Version = $version }
