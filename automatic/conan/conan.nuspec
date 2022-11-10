@@ -11,6 +11,13 @@
     <summary>Decentralized, open-source (MIT), C/C++ package manager.</summary>
     <description>
 Decentralized, open-source (MIT), C/C++ package manager.
+
+### Package Specific
+#### Package Parameters
+
+The following package parameters can be set:
+
+ * `/PathType:['User'|'Machine'|'Process']: Which PATH to add it to. If specifying 'Machine', this requires admin privileges to run correctly.`
     </description>
     <projectUrl>https://conan.io/</projectUrl>
     <tags>conan C++ package manager</tags>
@@ -18,9 +25,9 @@ Decentralized, open-source (MIT), C/C++ package manager.
     <copyright>Copyright 2016-2019, JFrog.</copyright>
     <licenseUrl>https://github.com/conan-io/conan/blob/develop/LICENSE.md</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
+    <dependencies>
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
     <releaseNotes>[Package Changelog](https://docs.conan.io/en/latest/changelog.html)</releaseNotes>
     <docsUrl>https://docs.conan.io/en/latest/</docsUrl>
     <bugTrackerUrl>https://github.com/conan-io/conan/issues</bugTrackerUrl>
