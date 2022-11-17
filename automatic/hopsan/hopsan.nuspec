@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
+    <id>hopsan</id>
+    <title>hopsan</title>
+    <version>2.20.0</version>
+    <authors>Hopsan</authors>
+    <owners>Xav83</owners>
+    <summary>Hopsan is a free multi-domain system simulation tool developed at the division of Fluid and mechatronic systems at Linköping university.</summary>
+    <description>
+Hopsan is a free open-source multi-domain system simulation tool developed at the division of Fluid and mechatronic systems at Linkoping university.    </description>
+    <projectUrl>https://liu.se/en/research/hopsan</projectUrl>
+    <tags>c-plus-plus fmi hydraulics transmission-line simulation-modeling</tags>
+    <iconUrl>https://rawcdn.githack.com/Hopsan/hopsan/d8ea48ce53792ff8f8f64b1dab87bb4c86e65735/HopsanGUI/graphics/uiicons/hopsan.png</iconUrl>
+    <copyright>Copyright (C) 2009 - Hopsan</copyright>
+    <licenseUrl>https://github.com/Hopsan/hopsan/blob/master/LICENSE-ALv2</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes>[Release Notes](https://github.com/Hopsan/hopsan/releases)</releaseNotes>
+    <docsUrl>https://hopsan.github.io/documentation/</docsUrl>
+    <bugTrackerUrl>https://github.com/2fast-team/2fast/issues</bugTrackerUrl>
+    <projectSourceUrl>https://github.com/Hopsan/hopsan/issues</projectSourceUrl>
+    <packageSourceUrl>https://github.com/Xav83/chocolatey-packages/tree/develop/automatic/hopsan</packageSourceUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
