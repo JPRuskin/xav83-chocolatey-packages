@@ -24,7 +24,7 @@ function global:au_GetLatest {
 
     $version = ($url -split '/' | select -Last 1 -Skip 1) -replace 'v',''
     if ($version.Contains("alpha")) { 
-        $version = $version -replace 'alpha.+','alpha'
+        $version = $version -replace 'alpha.','alpha'
     }
 
     $url64 = 'https://github.com' + $url
