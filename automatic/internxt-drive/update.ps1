@@ -18,8 +18,8 @@ function global:au_GetLatest {
     $expanded_assets_url = $release_tag_url -replace "/tag/","/expanded_assets/"
     $assets_page = Invoke-WebRequest -Uri $expanded_assets_url -UseBasicParsing
 
-    $re  = "Internxt-Drive-Setup-.+.exe"
-    $url = $assets_page.Links.Href -match $re | select -First 1 -expand href
+    $re  = "Internxt.Drive.Setup.+.exe"
+    $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = ($url -split '/' | select -Last 1 -Skip 1) -replace 'v',''
     $url64 = 'https://github.com' + $url
