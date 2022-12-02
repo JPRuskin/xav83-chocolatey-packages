@@ -1,13 +1,12 @@
 ﻿$ErrorActionPreference = 'Stop'
 
-$packageName = ''
 $url32       = ''
 $url64       = ''
 $checksum32  = ''
 $checksum64  = ''
 
 $packageArgs = @{
-  packageName    = $packageName
+  packageName    = $env:ChocolateyPackageName
   fileType       = 'EXE'
   url            = $url32
   url64Bit       = $url64
