@@ -1,4 +1,3 @@
-param([switch]$Force)
 import-module au
 
 $releases = 'https://github.com/conan-io/conan/releases'
@@ -32,4 +31,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update -Force
+update

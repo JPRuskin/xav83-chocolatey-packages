@@ -1,7 +1,4 @@
-param([switch]$Force)
 import-module au
-
-$au_Force = $true;
 
 $releases = 'https://github.com/Comp-Labs/Google-Docs/releases'
 
@@ -32,4 +29,4 @@ function global:au_GetLatest {
     return $Latest
 }
 
-update -ChecksumFor 64 -Force:$Force
+update -ChecksumFor 64
