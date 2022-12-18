@@ -18,9 +18,6 @@ ComicTagger is a multi-platform app for writing metadata to digital comics, writ
     <copyright>Apache Software License (Apache License 2.0)</copyright>
     <licenseUrl>https://pypi.org/project/comictagger/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <releaseNotes>[Release Notes](https://github.com/comictagger/comictagger/wiki/ReleaseNotes)</releaseNotes>
     <docsUrl>https://github.com/comictagger/comictagger/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/comictagger/comictagger/issues</bugTrackerUrl>

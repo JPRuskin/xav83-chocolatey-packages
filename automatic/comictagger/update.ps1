@@ -23,8 +23,11 @@ function global:au_GetLatest {
     $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = $url -split '/' | select -Last 1 -Skip 1
+    if ($version.Contains("alpha")) { 
+        $version = $version -replace 'alpha.','alpha'
+    }
     if ($version.Contains("beta")) { 
-        $version = $version.remove($version.Length - 2, 1)
+        $version = $version -replace 'beta.','beta'
     }
 
     $url64 = 'https://github.com' + $url
