@@ -20,9 +20,6 @@ With over 15 years of development, there's a good chance we have the features yo
     <copyright>Copyright (C) 1989, 1991 Free Software Foundation, Inc.</copyright>
     <licenseUrl>https://github.com/BiglySoftware/BiglyBT/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <!--<dependencies>
-      <dependency id="" version="" />
-    </dependencies>-->
     <releaseNotes>[Release Notes](https://github.com/BiglySoftware/BiglyBT/blob/master/ChangeLog.txt)</releaseNotes>
     <docsUrl>https://github.com/BiglySoftware/BiglyBT/wiki</docsUrl>
     <bugTrackerUrl>https://github.com/BiglySoftware/BiglyBT/issues</bugTrackerUrl>
