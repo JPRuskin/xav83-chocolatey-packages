@@ -18,7 +18,7 @@ function global:au_GetLatest {
     $expanded_assets_url = $release_tag_url -replace "/tag/","/expanded_assets/"
     $assets_page = Invoke-WebRequest -Uri $expanded_assets_url -UseBasicParsing
 
-    $re  = "PhantomBot.+.zip$"
+    $re  = "PhantomBot.+-win\.zip$"
     $url = $assets_page.Links.Href -match $re | select -First 1
 
     $version = $url -split '/' -replace 'v','' | select -Last 1 -Skip 1
