@@ -5,7 +5,7 @@
     <!-- Read this before publishing packages to chocolatey.org: https://github.com/chocolatey/chocolatey/wiki/CreatePackages -->
     <id>achievement-watcher</id>
     <title>Achievement Watcher</title>
-    <version>1.6.7</version>
+    <version>1.6.8</version>
     <authors>xan105</authors>
     <owners>Xav83</owners>
     <summary>A sexy achievement file parser with real-time notification, automatic screenshot and playtime tracking.</summary>
